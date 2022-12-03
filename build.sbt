@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "AoC-2022-P1a",
+    name := "AoC-2022",
     idePackagePrefix := Some("com.teixeira.csma.aoc")
   )
 
