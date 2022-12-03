@@ -3,7 +3,8 @@ package com.teixeira.csma.aoc
 import scala.annotation.tailrec
 
 object P1a {
-  def getListTotals(listOfLists: List[List[Int]]): List[Int] = listOfLists.map(list => list.sum)
+  def getListTotals(listOfLists: List[List[Int]]): List[Int] =
+    listOfLists.map(list => list.sum)
 
   def maxFromList(list: List[Int]): Int = {
 
