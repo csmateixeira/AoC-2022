@@ -1,12 +1,12 @@
 package com.teixeira.csma.aoc
+package com.teixeira.csma.aoc.p1
 
 import scala.collection.mutable.ListBuffer
-import scala.io.Source
+import com.teixeira.csma.aoc.common.FileReader
 
 object Common {
-  def readFileLines(f: String): List[List[Int]] = {
-    val bufferedSource = Source.fromFile(f)
-    val lines = bufferedSource.getLines
+  def readFileLinesWithInts(f: String): List[List[Int]] = {
+    val lines: List[String] = FileReader.readFileLines(f)
 
     var listOfListOfInts: ListBuffer[List[Int]] = ListBuffer[List[Int]]()
     var temp: ListBuffer[Int] = ListBuffer[Int]()
@@ -22,9 +22,7 @@ object Common {
 
     if (temp.nonEmpty) listOfListOfInts = listOfListOfInts += temp.toList
 
-    bufferedSource.close
-
     listOfListOfInts.toList
   }
-
 }
+

@@ -1,4 +1,5 @@
 package com.teixeira.csma.aoc
+package com.teixeira.csma.aoc.p1
 
 object P1b {
 

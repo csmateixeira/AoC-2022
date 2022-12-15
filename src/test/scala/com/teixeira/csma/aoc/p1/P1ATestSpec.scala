@@ -1,4 +1,5 @@
 package com.teixeira.csma.aoc
+package com.teixeira.csma.aoc.p1
 
 import org.scalatest.flatspec._
 import org.scalatest.matchers._

@@ -10,4 +10,5 @@ lazy val root = (project in file("."))
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.14"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % "test"
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.3.7"
 
