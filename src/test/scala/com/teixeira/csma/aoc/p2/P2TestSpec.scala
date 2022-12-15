@@ -1,4 +1,3 @@
-package com.teixeira.csma.aoc
 package com.teixeira.csma.aoc.p2
 
 import org.scalatest.flatspec.AnyFlatSpec

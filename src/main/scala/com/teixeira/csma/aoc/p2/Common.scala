@@ -1,8 +1,6 @@
-package com.teixeira.csma.aoc
 package com.teixeira.csma.aoc.p2
 
 import com.teixeira.csma.aoc.common.FileReader
-import com.teixeira.csma.aoc.p2.Hands.Hand
 
 object Common {
   def readFileLinesWithTuples(f: String): List[(String, String)] = {

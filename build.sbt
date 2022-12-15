@@ -4,8 +4,7 @@ ThisBuild / scalaVersion := "2.13.10"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "AoC-2022",
-    idePackagePrefix := Some("com.teixeira.csma.aoc")
+    name := "AoC-2022"
   )
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.14"
